@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+    box-sizing: border-box;
+  }
+  #main1 {
+    height: 500px;
+    border: black;
+    border-style: dotted;
+  }
+  .block {
+    position:relative;
+    margin: auto;
+    width: 80%;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+  }
+  #one {
+    position: relative;
+    top: 60px;
+    left: 60px;
+    border:red;
+    border-style: solid;
+  }
+  #two {
+    position: relative;
+    top: 200px;
+    left: 97px;
+    border: purple;
+    border-style: solid;
+  }
+  #three {
+    position: relative;
+    top: 340px;
+    left: 134px;
+    border: green;
+    border-style: solid;
+  }
+  
+  #main2 {
+    height: 350px;
+    margin-top: 50px;
+    border: black;
+    border-style: dotted;
+  }
+  #one2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: pink;
+    color:pink;
+  }
+  #two2 {
+    position: relative;
+    top: 90px;
+    left: -10px;
+    background: rgb(151, 40, 151);
+    color:rgb(151, 40, 151);
+  }
+  #three2 {
+    position: relative;
+    top: 160px;
+    left: -40px;
+    background: green;
+    color: green;
+  }
+  
+  #main3 {
+    height: 350px;
+    margin-top: 50px;
+    border: black;
+    border-style: dotted;
+  }
+  #one3 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: pink;
+    color:pink;
+  }
+  #two3 {
+    position: relative;
+    top: 90px;
+    left: -10px;
+    background: rgb(151, 40, 151);
+    color:rgb(151, 40, 151);
+  }
+  #three100{
+    position: relative;
+    top: 1110px;
+    left: -145px;
+    background: green;
+    color: green;
+  }
+  
+  #main4 {
+    height: 1000px;
+    margin-top: 50px;
+    border: black;
+    border-style: dotted;
+  }
+  
+  #one4 { 
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    position:absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(72, 255, 72);
+    color: rgb(72, 255, 72);
+  }
+  
+  #two4 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    background: white;
+    color: white;
+  }
+  #three4 {
+    position: relative;
+    top: 560px;
+    left: 525px;
+    width: 250px;
+    height: 250px;
+    background: white;
+    color: white;
+  }
+  
+  #main5 {
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: black;
+    border-style: dotted;
+  }
+  #one5 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: turquoise;
+    color: rgb(67, 179, 67)
+  }
+  h1 {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color:white;
+  }
+  #two5 {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 87.5%;
+    border: black;
+    border-style: solid;
+    overflow: scroll;
+    color: black;
+    padding-top: 2%;
+    padding-left: 1%; 
+  }
