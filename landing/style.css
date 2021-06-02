@@ -71,3 +71,92 @@
   align-items: center;
   justify-content: space-around;
 }
+.sign__up{
+  background: #F2994A;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 3px;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu__items{
+  display: flex;
+  justify-content: start;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.menu{
+  display: flex;
+  justify-content: start;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -15px;
+  position: relative;
+  right: 200px;
+}
+
+.link__in{
+  text-decoration: none;
+  color:#F2994A;
+}
+
+.sign__in:hover{
+  transform: skew(-20deg, 20deg);
+  transition: 0.7s;
+}
+
+.sign__in:active{
+  transform: scale(1.2,0.5);
+  transition: 0.1s;
+}
+
+.sign__up:hover{
+  transform: skew(20deg, -20deg);
+  transition: 0.7s;
+}
+
+.sign__up:active{
+  transform:scaleX(-1);
+  transition: 0.1s;
+}
+.link__up{
+  text-decoration: none;
+  color: white;
+}
+
+.sign{
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.menu__links2{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-right: 50px;
+  font-weight: bold;
+  z-index: 1;
+  font-size: 40px;
+}
+
+.header__logo2{
+  display: flex;
+  margin-top: 15px;
+  position: relative;
+  height: 50px; 
+  width: 50px;
+  background: #F2994A;
+  border-radius: 50%;
+  left: 36px;
+}
